@@ -1,5 +1,7 @@
 # How Stereographic Projection Can Demonstrate an Emergent Dimension?
 
+![Emergent_Dimension](emergent_dimension.png)
+
 The **stereographic projection** provides a classical analogy for the concept of **emergent dimensions**, showing how higher-dimensional information can be encoded onto a lower-dimensional surface. This can be used to explore the idea that the **third dimension** of spacetime might not be fundamental, but rather an **emergent property** arising from a more fundamental 2D description.
 
 ## Stereographic Projection Overview
