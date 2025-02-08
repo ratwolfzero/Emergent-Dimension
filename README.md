@@ -13,7 +13,10 @@ The stereographic projection maps points from a **3D sphere** onto a **2D plane*
 Given a unit sphere \( S^2 \) centered at the origin in 3D space with coordinates \( (x, y, z) \), the **stereographic projection** onto a plane (typically the \( xy \)-plane) is given by the following formulas:
 
 $$
+\large
 x' = \frac{x}{1 - z}, \quad y' = \frac{y}{1 - z}
+\large
+
 $$
 
 where \( (x', y') \) are the coordinates of the point on the 2D plane.
@@ -23,7 +26,9 @@ where \( (x', y') \) are the coordinates of the point on the 2D plane.
 To recover the 3D coordinates from the 2D projection, we use the **inverse stereographic projection**:
 
 $$
+\large
 x = \frac{2x'}{1 + x'^2 + y'^2}, \quad y = \frac{2y'}{1 + x'^2 + y'^2}, \quad z = \frac{1 - x'^2 - y'^2}{1 + x'^2 + y'^2}
+\large
 $$
 
 These formulas allow us to reconstruct the 3D sphere from its 2D projection, illustrating the idea that the **third dimension** might emerge from **lower-dimensional data**.
