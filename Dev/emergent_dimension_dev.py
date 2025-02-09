@@ -83,7 +83,7 @@ def inverse_projection(x_proj, y_proj, shape):
     return x_recon, y_recon, z_recon
 
 # Select shape: 'sphere', 'cone', 'paraboloid', or 'ellipsoid'
-shape_type = "ellipsoid"  # Change this to test different shapes
+shape_type = "cone"  # Change this to test different shapes
 
 # Generate a parametric surface
 u = np.linspace(0, np.pi, 30) if shape_type == "sphere" else np.linspace(0, 1, 30)
