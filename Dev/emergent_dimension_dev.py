@@ -77,6 +77,11 @@ x_proj, y_proj = stereographic_projection(x, y, z)
 # Reconstruct the surface using inverse projection
 x_recon, y_recon, z_recon = inverse_projection(x_proj, y_proj, shape_type)
 
+# Explicitly close the grid by appending the first row to the end
+x_recon = np.vstack([x_recon, x_recon[0, :]])
+y_recon = np.vstack([y_recon, y_recon[0, :]])
+z_recon = np.vstack([z_recon, z_recon[0, :]])
+
 # Create figure with 3 subplots
 fig = plt.figure(figsize=(18, 6))
 
@@ -100,11 +105,22 @@ ax2.set_aspect('equal')
 
 # --- Reconstructed 3D Surface ---
 ax3 = fig.add_subplot(133, projection='3d')
-ax3.scatter(x_recon, y_recon, z_recon, s=1, color='red')
+
+# Choose between coarse surface grid or wireframe
+visualization_mode = "coarse_grid"  # Change to "coarse_grid" for coarse surface grid
+
+if visualization_mode == "coarse_grid":
+    # Coarse surface grid
+    ax3.plot_surface(x_recon, y_recon, z_recon, color='red', edgecolor='black', alpha=0.3, rstride=5, cstride=5)
+elif visualization_mode == "wireframe":
+    # Wireframe
+    ax3.plot_wireframe(x_recon, y_recon, z_recon, color='red', rstride=5, cstride=5)
+else:
+    raise ValueError("Unknown visualization mode: Choose 'coarse_grid' or 'wireframe'")
+
 ax3.set_title(f"Reconstructed 3D {shape_type.capitalize()}")
 ax3.set_xlabel("X")
 ax3.set_ylabel("Y")
 ax3.set_zlabel("Z")
 
 plt.show()
-
