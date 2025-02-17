@@ -61,7 +61,7 @@ def inverse_projection(x_proj, y_proj, shape):
     return x_recon, y_recon, z_recon
 
 # Select shape
-shape_type = "paraboloid"  # Change this to test different shapes
+shape_type = "cone"  # Change this to test different shapes
 
 # Generate a parametric surface
 u_res, v_res = 190, 100  # Increased resolution
