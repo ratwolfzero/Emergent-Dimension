@@ -64,7 +64,7 @@ def inverse_projection(x_proj, y_proj, shape):
 shape_type = "paraboloid"  # Change this to test different shapes
 
 # Generate a parametric surface
-u_res, v_res = 50, 100  # Increased resolution
+u_res, v_res = 190, 100  # Increased resolution
 u = np.linspace(0, np.pi, u_res) if shape_type == "sphere" else np.linspace(0, 1, u_res)
 v = np.linspace(0, 2 * np.pi, v_res)
 u, v = np.meshgrid(u, v)
