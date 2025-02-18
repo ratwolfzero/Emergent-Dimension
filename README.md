@@ -36,7 +36,7 @@ These formulas allow us to reconstruct the 3D sphere from its 2D projection, ill
 
 In the context of the **holographic principle**, the stereographic projection serves as a metaphor for how a 3D system could be encoded in a lower-dimensional surface, much like how **spacetime** (including the third dimension) might emerge from a more fundamental 2D description. This supports the idea that dimensions are **not necessarily fundamental** but could arise as **emergent properties** from quantum field theories on a boundary.
 
-However, it's important to note that the **real holographic principle** in **quantum mechanics** is a bit more complicated. It involves **quantum entanglement** and **boundary field theories** in ways that go beyond the simple classical analogy provided by stereographic projection.
+However, it's important to note that the **real holographic principle** in **quantum mechanics** is a bit more complicated. It involves **quantum entanglement** and **boundary field theories** in ways that go far beyond the simple classical analogy provided by stereographic projection.
 
 ---
 
