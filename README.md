@@ -43,9 +43,9 @@ Still, the stereographic projection provides valuable intuition for how extra di
 
 By studying such projections, we gain insight into how:
 
-✔ Higher-dimensional physics might arise from lower-dimensional rules.
-✔ Spacetime itself could be an emergent phenomenon.
-✔ Quantum gravity theories (like AdS/CFT*) use holographic encoding.
+- Higher-dimensional physics might arise from lower-dimensional rules.
+- Spacetime itself could be an emergent phenomenon.
+- Quantum gravity theories (like AdS/CFT*) use holographic encoding.
   *Anti-de Sitter/Conformal Field Theory
 
 While the full picture requires advanced quantum theory, the stereographic projection offers a beautiful geometric gateway into these profound ideas.
