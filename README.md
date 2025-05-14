@@ -31,7 +31,7 @@ This reversibility illustrates how higher-dimensional information can be encoded
 
 ## From Math to Physics: The Emergent Dimension Analogy
 
-The stereographic projection serves as a classical geometric analogy for the holographic principle, which suggests that our 3D universe might be encoded on a 2D boundary.However, this is just an illustration — the real holographic principle in quantum gravity involves far deeper mechanisms, such as:
+The stereographic projection serves as a classical geometric analogy for the holographic principle, which suggests that our 3D universe might be encoded on a 2D boundary. However, this is just an illustration — the real holographic principle in quantum gravity involves far deeper mechanisms, such as:
 
 - Quantum entanglement
 - Boundary conformal field theories
