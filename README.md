@@ -11,7 +11,7 @@ This mathematical technique maps points from a 3D sphere onto a
 
 ### 1. Stereographic Projection Formula
 
-For a unit sphere \( S^2 \) centered at the origin in 3D space with coordinates \( (x, y, z) \), the **stereographic projection** onto the \( xy \)-plane is given by:
+For a unit sphere **S²** centered at the origin in 3D space with coordinates (x, y, z), the **stereographic projection** onto the xy-plane is given by:
 
 $$
 x' = \frac{x}{1 - z}, \quad y' = \frac{y}{1 - z}
