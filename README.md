@@ -17,7 +17,7 @@ $$
 x' = \frac{x}{1 - z}, \quad y' = \frac{y}{1 - z}
 $$
 
-where \( (x', y') \) are the coordinates of the projected point on the 2D plane.
+where (x', y') are the coordinates of the projected point on the 2D plane.
 
 ### 2. Inverse Stereographic Projection
 
