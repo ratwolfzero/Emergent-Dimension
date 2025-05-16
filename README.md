@@ -15,7 +15,7 @@ The stereographic projection offers a fascinating analogy for understanding emer
 This mathematical technique maps points from a 3D sphere onto a
 2D plane, demonstrating how three-dimensional data can be represented in fewer dimensions. Crucially, the projection is reversible — meaning the original 3D structure can be perfectly reconstructed from its 2D counterpart.
 
-### Stereographic Projection Formula
+### Projecting 3D onto 2D
 
 For a unit sphere **S²** centered at the origin in 3D space with coordinates (x, y, z), the **stereographic projection** onto the xy-plane is given by:
 
@@ -25,7 +25,7 @@ $$
 
 where (x', y') are the coordinates of the projected point on the 2D plane.
 
-### Inverse Stereographic Projection
+### Reconstructing 3D from 2D
 
 To recover the 3D coordinates from the 2D projection, we use the **inverse stereographic projection**:
 
