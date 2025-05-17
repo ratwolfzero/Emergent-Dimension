@@ -4,7 +4,7 @@
 
 ## Historical Context
 
-Although its precise origin is unclear, stereographic projection can be traced back to Ancient Greek astronomy.
+Although its exact origin is uncertain, stereographic projection is strongly associated with ancient Greek astronomy.
 
 ## Stereographic Projection as an Analogy
 
